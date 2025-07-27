@@ -135,3 +135,4 @@ if __name__ == "__main__":
     solve_supply_chain(method='epsilon_constrained', params={'epsilon_emissions': 75000, 'epsilon_jobs': 150})
     solve_supply_chain(method='lexicographic')
     solve_supply_chain(method='goal_programming', params={'goal_cost': 2000000, 'goal_emissions': 80000, 'goal_jobs': 180, 'p1': 1, 'p2': 1, 'p3': 1})
+    n=input()
